@@ -8,8 +8,53 @@
   - Otherwise the grade is "F"
 */
 
-function calculateGrade(mark) {}
+function calculateGrade(grade1) {
+  if (grade1 >= 80) {
+    return "A";
+  } else if (grade1 < 80 && grade1 >= 60) {
+    return "B";
+  } else if (grade1 < 60 && grade1 >= 50) {
+    return "C";
+  } else {
+    return "F"
+  }
+}
 
+function calculateGrade(grade2) {
+  if (grade2 >= 80) {
+    return "A";
+  } else if (grade2 < 80 && grade2 >= 60) {
+    return "B";
+  } else if (grade2 < 60 && grade2 >= 50) {
+    return "C";
+  } else {
+    return "F"
+  }
+}
+
+function calculateGrade(grade3) {
+  if (grade3 >= 80) {
+    return "A";
+  } else if (grade3 < 80 && grade3 >= 60) {
+    return "B";
+  } else if (grade3 < 60 && grade3 >= 50) {
+    return "C";
+  } else {
+    return "F"
+  }
+}
+
+function calculateGrade(grade4) {
+  if (grade4 >= 80) {
+    return "A";
+  } else if (grade4 < 80 && grade4 >= 60) {
+    return "B";
+  } else if (grade4 < 60 && grade4 >= 50) {
+    return "C";
+  } else {
+    return "F"
+  }
+}
 /* 
 DO NOT EDIT BELOW THIS LINE
 --------------------------- */

@@ -5,8 +5,38 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(num) {
+  if (num < 0 ) {
+    return true;
+  }
 
+  return false;
+}
+
+function isBetween5and10(num1) {
+if (num1 >= 5 && num1 <= 10) {
+  return true;
+}
+
+return false;
+}
+
+function isShortName(name) {
+  if ( name === name ) {
+    return true;
+  }
+
+  return false;
+}
+
+function startsWithD(d) {
+if ( d === 'Daniel') {
+  return true;
+
+  return false;
+}
+
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

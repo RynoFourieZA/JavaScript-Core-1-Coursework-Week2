@@ -6,8 +6,29 @@
   - if number is more or equal to zero, return the word "positive"
 */
 
-function negativeOrPositive(number) {}
+function negativeOrPositive(number1) {
+  if (number1 < 0 ) {
+    return "negative";
+  } else if (number >= 0) {
+    return "positive";
+  }
+}
 
+function negativeOrPositive(number2) {
+  if (number2 < 0 ) {
+    return "negative";
+  } else if (number2 >= 0 ) {
+    return "positive";
+  }
+}
+
+function negativeOrPositive(number3) {
+  if (number3 < 0 ) {
+    return "negative";
+  } else if (number3 >= 0 ) {
+    return "positive";
+  }
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

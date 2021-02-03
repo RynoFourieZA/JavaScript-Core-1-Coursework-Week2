@@ -5,10 +5,19 @@
 
 */
 
-function isEmpty(arr) {
-  return; // complete this statement
+function isEmpty(numbers) {
+  if (numbers.length === 0) {
+    return true;
+  } 
+  return false; // complete this statement
 }
 
+function isEmpty(names) {
+  if (names.length === 0) {
+    return true;
+  }
+  return false; // complete this statement
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
