@@ -6,33 +6,40 @@
 */
 
 function isNegative(num) {
+  
   if (num < 0 ) {
     return true;
+  }else {
+    return false;
   }
 
-  return false;
 }
 
 function isBetween5and10(num1) {
+
 if (num1 >= 5 && num1 <= 10) {
   return true;
-}
-
-return false;
-}
-
-function isShortName(name) {
-  if ( name === name ) {
-    return true;
-  }
-
+} else {
   return false;
 }
 
-function startsWithD(d) {
-if ( d === 'Daniel') {
-  return true;
+}
 
+function isShortName(name) {
+
+  if ( name === name ) {
+    return true;
+  }else {
+    return false;
+  }
+
+}
+
+function startsWithD(D) {
+
+if ( D === 'Daniel') {
+  return true;
+}else {
   return false;
 }
 
